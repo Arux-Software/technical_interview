@@ -8,6 +8,7 @@ Ask questions as you have them, and be prepared to discuss your choices when you
 
 Example Output:
 
+```
 1 2 3 4 5 6 7 8 9 10 11 12
 2 4 6 8 10 12 14 16 18 20 22 24
 3 6 9 12 15 18 21 24 27 30 33 36
@@ -20,11 +21,13 @@ Example Output:
 10 20 30 40 50 60 70 80 90 100 110 120
 11 22 33 44 55 66 77 88 99 110 121 132
 12 24 36 48 60 72 84 96 108 120 132 144
+```
 
 2. Modify the function to allow the multiplication table to be formatted so each number is right aligned
 
 Example Output (align: :right): 
 
+```
  1   2   3   4   5   6   7   8   9  10  11  12
  2   4   6   8  10  12  14  16  18  20  22  24
  3   6   9  12  15  18  21  24  27  30  33  36
@@ -37,21 +40,25 @@ Example Output (align: :right):
 10  20  30  40  50  60  70  80  90 100 110 120
 11  22  33  44  55  66  77  88  99 110 121 132
 12  24  36  48  60  72  84  96 108 120 132 144
+```
 
 3. Modify the function to print a formatted multiplication table of any size, taking a min and max for arguments.
 
 Example Output (min: 9, max: 13, align: :right):
 
+```
  81   90   99  108  117
  90  100  110  120  130
  99  110  121  132  143
 108  120  132  144  156
 117  130  143  156  169
+```
 
 4. Modify the function to accept a string to use as a delimiter between numbers in each row
 
 Example Output (delimiter: " |", align: :right):
 
+```
   1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12
   2 |  4 |  6 |  8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24
   3 |  6 |  9 | 12 | 15 | 18 | 21 | 24 | 27 | 30 | 33 | 36
@@ -64,4 +71,4 @@ Example Output (delimiter: " |", align: :right):
  10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |100 |110 |120
  11 | 22 | 33 | 44 | 55 | 66 | 77 | 88 | 99 |110 |121 |132
  12 | 24 | 36 | 48 | 60 | 72 | 84 | 96 |108 |120 |132 |144
-
+ ```
