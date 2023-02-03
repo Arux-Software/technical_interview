@@ -8,27 +8,18 @@ class TestTableBuilder < Minitest::Test
 
   def test_default_table
     table = @table_builder.call
-
-    assert_match(/^1\ /, table)
-    assert_match(/\ 144$/, table)
     assert default_table == table
   end
 
   def test_right_aligned_table
     skip "enable this test when adding alignment"
     table = @table_builder.call(align: :right)
-
-    assert_match(/^ 1\ /, table)
-    assert_match(/\ 144$/, table)
     assert right_aligned_table == table
   end
 
   def test_min_max_table
     skip "enable this test when adding min/max"
     table = @table_builder.call(min: 9, max: 13, align: :right)
-
-    assert_match(/^ 81\ /, table)
-    assert_match(/\ 169$/, table)
     assert min_max_table == table
   end
 
