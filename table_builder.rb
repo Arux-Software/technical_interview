@@ -6,4 +6,4 @@ end
 
 # Uncomment if you want to run this from the command line
 # `=> ruby table_builder.rb`
-# TableBuilder.call
+# puts TableBuilder.call
